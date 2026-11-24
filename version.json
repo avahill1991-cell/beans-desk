@@ -1,0 +1,5 @@
+{
+  "version": "0.2.0",
+  "url": "",
+  "notes": "Three strategies (SMA, breakout, seasonal), commissions and slippage in every backtest, offline licence keys, update check."
+}

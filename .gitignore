@@ -1,0 +1,22 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/lib/
+dist/
+.venv/
+venv/
+
+# Downloaded market data and its cache.
+# `beansdesk fetch` regenerates it; redistributing Yahoo data is not ours to do.
+data/
+
+# Local state
+*.log
+journal.local.csv
+version.local.json
+
+# PyInstaller work
+build/work/
+build/cli/
+build/gui/

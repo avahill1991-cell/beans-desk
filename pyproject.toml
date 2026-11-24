@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "beansdesk"
+version = "0.2.0"
+description = "Deterministic backtesting and pre-trade risk checks for futures traders"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary" }
+authors = [{ name = "Beans Desk" }]
+keywords = ["trading", "risk", "backtest", "journal", "futures"]
+dependencies = []
+
+[project.scripts]
+beansdesk = "beansdesk.cli:main"
+
+[project.optional-dependencies]
+gui = ["customtkinter>=5.2"]
+
+[tool.setuptools]
+packages = ["beansdesk"]
+include-package-data = true
